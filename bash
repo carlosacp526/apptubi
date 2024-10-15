@@ -1,7 +1,5 @@
-echo "# apptubi" >> README.md
 git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
+git add .
+git commit -m "Subida inicial del proyecto"
 git remote add origin https://github.com/carlosacp526/apptubi.git
-git push -u origin main
+git push -u origin master
